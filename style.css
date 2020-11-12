@@ -1,0 +1,17 @@
+    a {color:black; text-decoration:none;}
+    h1 {text-align:center; font-family:Avenir Next; font-weight:lighter; margin:20px; border-bottom:1px gray solid;padding:20px;}
+
+    body {margin:0;}
+    .country {font-size:13.2px;}
+    #box ul{margin:20px; font-family:Avenir Next;display:block;}
+    #box{display:grid; grid-template-columns:1.5fr 1fr;border-bottom: 1px gray solid; margin-left: 20px;margin-right: 20px;}
+    p{text-align:left; font-size:15px; font-family:Avenir Next;margin-left:0;}
+@media(max-width:623px)
+{
+  #date{display: none;}
+  #box{display:block; border-bottom: none;}
+  #box ul{padding-left: 180px; padding-bottom: 20px;border-bottom: 1px gray solid;}
+  #box img {padding-left:120px;}
+h1{font-size: 15px;}
+}
+p {text-align: center;}
