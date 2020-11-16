@@ -10,14 +10,30 @@
         <input type="button" name="" value="welcome" onclick="alert('This is the page for remebering our great journey! \nThank you for always playing with me:)')">
 
         <input id=time type="button" name="" value="night" onclick="
-          if(document.querySelector('#time').value==='night')
-            {document.querySelector('body').style.backgroundColor='gray'
-              document.querySelector('body').style.color='white'
-              document.querySelector('#time').value='day'}
+        var target=document.querySelector('body');
+          if(this.value==='night')
+            {target.style.backgroundColor='gray';
+              target.style.color='white';
+                this.value='day';
+
+              var alist = document.querySelectorAll('a');
+              var i = 0;
+              while (i < alist.length) {
+              alist[i].style.color = 'white';
+                i = i+1;}
+              }
               else
-              {document.querySelector('body').style.backgroundColor='white'
-              document.querySelector('body').style.color='black'
-              document.querySelector('#time').value='night'}">
+              {target.style.backgroundColor='white';
+              target.style.color='black';
+              this.value='night';
+
+              var alist = document.querySelectorAll('a');
+              var i = 0;
+              while (i < alist.length) {
+              alist[i].style.color = 'black';
+                i = i+1;
+              }
+                } ">
 
         <h1><a href="home.html">2019-20 GARAM&IJI's EU TRAVELING</a></h1>
 
