@@ -8,18 +8,15 @@
   </head>
 
   <body>
-    <input class='but' type="button" name="" value="welcome"
+  <script src="style2.js"> </script>
+  <input type="button" name="" value="welcome"
     onclick="alert('This is the page for remebering our great journey! \nThank you for always playing with me:)')">
-    <input class='but' type="button" name="" value="night" onclick="
-      if(document.querySelector('#time').value==='night')
-        {document.querySelector('body').style.backgroundColor='gray'
-          document.querySelector('body').style.color='white'
-          document.querySelector('#time').value='day'}
-          else
-          {document.querySelector('body').style.backgroundColor='white'
-          document.querySelector('body').style.color='black'
-          document.querySelector('#time').value='night'}">
+    <input id = 'time' type="button" name="" value="night" onclick="
+  buttonclick(this)">
+
     <h1>2019-20 GARAM&IJI's EU TRAVELING</h1>
+
+
 <div id="box">
     <ul>
       <li><a href="england.html" >ENGLAND</a></li>
