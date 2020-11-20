@@ -2,7 +2,7 @@
     h1 {text-align: center; font-weight:lighter; margin:20px; border-bottom:1px black solid;padding:20px;}
     body {margin:0;}
     .country {font-size:13.2px;}
-    #box ul{margin:20px;display:block;}
+    #box ul{margin:20px;display:block;font-family: Vogue;}
     #box{display:grid; grid-template-columns:1.5fr 1fr;border-bottom: 1px black solid; margin-left: 20px;margin-right: 20px;}
     p{text-align:left; font-size:15px;margin-left:0;}
 
@@ -10,6 +10,5 @@
 {#box{display:block; border-bottom: none;}
   #box ul{padding-left: 180px; padding-bottom: 20px;border-bottom: 1px black solid;}
   #box img {padding-left:120px;}
-h1{font-size: 15px;}}
+h1{font-size: 25px;font-family:Loverica DEMO;}}
 p {text-align: center;}
-  body {font-family:Avenir Next;}
